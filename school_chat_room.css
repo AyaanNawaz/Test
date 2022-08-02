@@ -1,0 +1,29 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #027777, #048b79, #09918a, #05afa1, #03b6b6);
+}
+.header
+{
+	color: rgb(255, 211, 15);font-family:cursive; font-size: 40px;;margin-top: 50px; font-weight: bold; font-style: italic;
+}
+h1{
+    color: rgb(123, 255, 0);font-family:'Times New Roman', Times, serif; font-size: 30px;;margin-top:10px; font-weight: bold; font-style: italic;
+}
+.header img
+{
+	width: 60px;margin-left: -15px;
+}
+#logout
+{
+	font-size: 20px; border-radius:18px; height:50px; width:12%; float: right;
+}
+.color_white
+{
+	color: white
+}
