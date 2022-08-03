@@ -1,4 +1,4 @@
-firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyBD-L_HBQirGTI31RISG79sa3eohfyiseQ",
     authDomain: "micro-school-chat-web.firebaseapp.com",
     projectId: "micro-school-chat-web",
@@ -11,8 +11,9 @@ firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 
-user_name=localStorage.getItem("user_name");
-document.getElementById("user_name").innerHTML="Welcome " + user_name + "!"
+user_name = localStorage.getItem("user_name");
+document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
+
 
 function logOut(){
     window.location="index.html"
